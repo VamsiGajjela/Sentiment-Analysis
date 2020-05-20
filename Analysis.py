@@ -42,6 +42,7 @@ classifier_linear.fit(points, data['Review'])
 print('This is a Sentiment Analysis program that works using a linear SVM model')
 print('Type in your review or just hit enter to exit')
 
+#a review like "This was the worst thing I've seen"
 user_input = input("Enter the review you want to test: ")
 
 while user_input != '':
